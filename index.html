@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.bundle.min.js"></script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/images/title.png" type="image/x-icon">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="main.css">
+    <title>Bondo Bootstrap</title>
+</head>
+
+<body>
+    <!-- ========== Start header Section ========== -->
+    <!-- responsive navigation bar with right offcanvas -->
+    <nav class="zezo navbar navbar-expand-md navbar-dark fixed-top shadow-sm">
+        <div class="container">
+            <!-- logo -->
+            <a class="navbar-brand" href="#">
+                <img src="/images/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler text-warning" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <i class="fas fa-lines-leaning"></i>
+            </button>
+            <!-- offcanvas -->
+            <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <!-- offcanvas header -->
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                    <button type="button" class="btn-close text-bg-warning " data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <!-- offcanvas body -->
+                <div class="offcanvas-body ">
+                    <!-- ul links -->
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+                        <li class="nav-item ">
+                            <a class="nav-link active " aria-current="page" href="#main">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#portfolio">Portfolio</a>
+                        </li>
+                        <!-- dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">About Us</a>
+                            <div class="dropdown-menu mb-2" aria-labelledby="dropdownId">
+                                <h5 class="dropdown-header">About</h5>
+                                <a class="dropdown-item" href="#about">Us</a>
+                                <a class="dropdown-item" href="#team">Team</a>
+                                <hr class="dropdown-divider">
+                                <h5 class="dropdown-header">contact</h5>
+                                <a class="dropdown-item" href="#blog">Blog</a>
+                                <a class="dropdown-item" href="#newsletter">Email</a>
+                                <a class="dropdown-item" href="#footer">Address</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- form -->
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="search btn btn-outline-warning" type="submit">Search</button>
+                        <button class="login btn bg-warning rounded px-4 ms-2">Login</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- ========== End header Section ========== -->
+
+    <!-- ========== Start main Section ========== -->
+    <section id="main" class="main d-flex justify-content-center align-items-center">
+        <div class="container text-center">
+            <h1 class="text-white">Taste the Creativity
+            </h1>
+            <p class="text-secondary">We make awesome graphic and web design
+            </p>
+            <button class="btn btn-warning rounded-pill">Get Started</button>
+        </div>
+    </section>
+    <!-- ========== End main Section ========== -->
+
+    <!-- ========== Start services Section ========== -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-title text-center">
+                <img src="/images/title.png" alt="">
+                <h2 class="mt-3">We are Good at</h2>
+                <p>SOME OF THESE STUFF UNDER</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 text-center mt-5">
+                    <div class="services-card">
+                        <div class="services-icons position-relative">
+                            <i class="fas fa-1 position-absolute bottom-0"></i>
+                            <i class="fab fa-earlybirds position-absolute bottom-0"></i>
+                        </div>
+                        <h2 class="mt-5">GRAPHIC DESIGN</h2>
+                        <p class="mb-5 lh-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, vero!
+                            Asperiores enim numquam sunt quos fuga quis? Aperiam, obcaecati possimus provident
+                            necessitatibus beatae quisquam blanditiis.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mt-5">
+                    <div class="services-card">
+                        <div class="services-icons position-relative">
+                            <i class="fas fa-2 position-absolute bottom-0"></i>
+                            <i class="fas fa-explosion position-absolute bottom-0"></i>
+                        </div>
+                        <h2 class="mt-5">BUILDING RIGS</h2>
+                        <p class="mb-5 lh-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti esse
+                            commodi placeat iusto! Maxime et non rerum debitis? Deleniti, eaque repellat. Aspernatur,
+                            veritatis? Rerum, doloremque?</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 text-center mt-5">
+                    <div class="services-card">
+                        <div class="services-icons position-relative">
+                            <i class="fas fa-3 position-absolute bottom-0"></i>
+                            <i class="fab fa-battle-net position-absolute bottom-0"></i>
+                        </div>
+                        <h2 class="mt-5">PLAYING GAMES</h2>
+                        <p class="mb-5 lh-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore iure eos,
+                            ut molestias cum voluptatibus optio corporis fugiat beatae minima eum pariatur alias autem
+                            eius omnis ea! Voluptatibus, similique alias?</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- ========== End services Section ========== -->
+
+    <!-- ========== Start portfolio Section ========== -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-title text-center">
+                <img src="/images/title.png" alt="">
+                <h2 class="mt-3">We Make This
+                </h2>
+                <p>SOME OF THESE STUFF UNDER</p>
+            </div>
+            <div class="portfolio-nav d-none d-sm-flex justify-content-center align-items-center">
+                <button class="btn border-0 me-1 active">All</button>
+                <button class="btn border-0 me-1">Design</button>
+                <button class="btn border-0 me-1">Code</button>
+                <button class="btn border-0 me-1">Photo</button>
+                <button class="btn border-0 me-1">App</button>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+                    <div class="portfolio-card" custom-attribute="Photo">
+                        <img class="img-thumbnail img-fluid" src="/images/work-01.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+                    <div class="portfolio-card" custom-attribute="Design">
+                        <img class="img-thumbnail" src="/images/work-02.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+                    <div class="portfolio-card" custom-attribute="App">
+                        <img class="img-thumbnail" src="/images/work-03.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+                    <div class="portfolio-card" custom-attribute="Code">
+                        <img class="img-thumbnail" src="/images/work-04.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+                    <div class="portfolio-card" custom-attribute="Design">
+                        <img class="img-thumbnail" src="/images/work-05.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 mb-3">
+                    <div class="portfolio-card" custom-attribute="Photo">
+                        <img class="img-thumbnail" src="/images/work-06.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 mb-3">
+                    <div class="portfolio-card" custom-attribute="Code">
+                        <img class="img-thumbnail" src="/images/work-07.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 mb-3">
+                    <div class="portfolio-card" custom-attribute="Design">
+                        <img class="img-thumbnail" src="/images/work-08.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-button text-center pb-5"><button class="btn btn-warning">See More</button></div>
+        </div>
+    </section>
+    <!-- ========== End portfolio Section ========== -->
+
+    <!-- ========== Start about Section ========== -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title text-center">
+                <img src="/images/title.png" alt="">
+                <h2 class="mt-3">Some Stuff About Us</h2>
+                <p>THE GREAT TEAM</p>
+            </div>
+            <p class="about-top-text m-auto text-black-50">Donec rutrum congue leo eget malesuada. Mauris blandit
+                aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget
+                tortor risus. Donec sollicitudin molestie malesuada.</p>
+            <div class="row align-items-center mt-5">
+                <div class="col-lg-4 text-center text-lg-start mb-5">
+                    <div class="about-left-text">
+                        <h3>Retina Design</h3>
+                        <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet
+                            elit, eget tincidunt nibh pulvinar a.
+                            <br>
+                            <br>
+                            Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh
+                            pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec
+                            sollicitudin molestie malesuada
+                        </p>
+                    </div>
+                    <button class="btn btn-warning rounded-1">Order Me One</button>
+                </div>
+                <div class="col-lg-8 mb-5">
+                    <img usemap="#laptop-map" class="img-fluid" src="/images/laptop.png" alt="">
+                    <map name="laptop-map">
+                        <area shape="rect" coords="270,150,420,230" href="#team" alt="">
+                    </map>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== End about Section ========== -->
+
+    <!-- ========== Start team Section ========== -->
+    <section class="team" id="team">
+        <div class="container">
+            <div class="text-center mb-4"><img src="/images/title.png" alt=""></div>
+            <h2 class="text-center text-warning fw-bolder">Meet The Team</h2>
+            <p class="text-center text-black-50">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit,
+                eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus.
+                Donec sollicitudin molestie malesuada.</p>
+            <div class="row mt-5 mb-5">
+                <div class="column col-md-6 col-lg-4 col-xl-3">
+                    <div class="team-card card bg-white shadow mb-4">
+                        <img src="/images/team-1.png" alt="">
+                        <h4 class="card-title text-center text-white p-3">Luke Skywalker
+                        </h4>
+                        <p class="card-text text-center text-black-50 p-2">“I don't understand how we got by those
+                            troops. I thought we were dead.“</p>
+                    </div>
+                </div>
+                <div class="column col-md-6 col-lg-4 col-xl-3">
+                    <div class="team-card card bg-white shadow mb-4">
+                        <img src="/images/team-2.png" alt="">
+                        <h4 class="card-title text-center text-white p-3">Luke Skywalker
+                        </h4>
+                        <p class="card-text text-center text-black-50 p-2">“I don't understand how we got by those
+                            troops. I thought we were dead.“</p>
+                    </div>
+                </div>
+                <div class="column col-md-6 col-lg-4 col-xl-3">
+                    <div class="team-card card bg-white shadow mb-4">
+                        <img src="/images/team-3.png" alt="">
+                        <h4 class="card-title text-center text-white p-3">Luke Skywalker
+                        </h4>
+                        <p class="card-text text-center text-black-50 p-2">“I don't understand how we got by those
+                            troops. I thought we were dead.“</p>
+                    </div>
+                </div>
+                <div class="column col-md-6 col-lg-12 col-xl-3">
+                    <div class="team-card card bg-white shadow mb-4">
+                        <img src="/images/team-4.png" alt="">
+                        <h4 class="card-title text-center text-white p-3">Luke Skywalker
+                        </h4>
+                        <p class="card-text text-center text-black-50 p-2">“I don't understand how we got by those
+                            troops. I thought we were dead.“</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== End team Section ========== -->
+
+    <!-- ========== Start tech Section ========== -->
+    <div class="tech text-center d-flex align-items-center" id="tech">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-6 col-md-3 my-3">
+                    <img class="img-fluid" src="/images/tech-1.png" alt="">
+                </div>
+                <div class="col-6 col-md-3 my-3">
+                    <img class="img-fluid" src="/images/tech-4.png" alt="">
+                </div>
+                <div class="col-6 col-md-3 my-3">
+                    <img class="img-fluid" src="/images/tech-2.png" alt="">
+                </div>
+                <div class="col-6 col-md-3 my-3">
+                    <img class="img-fluid" src="/images/tech-3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========== End tech Section ========== -->
+
+    <!-- ========== Start project Section ========== -->
+    <div class="project" id="project">
+        <div class="container text-center pt-5">
+            <h3 class="text-white">Start Your Project Now</h3>
+            <p class="text-white-50">Leave your description and we start the engine.Don't worry,you can cancel anytime
+            </p>
+            <button class="btn btn-warning my-4">Start Project</button>
+        </div>
+    </div>
+    <!-- ========== End project Section ========== -->
+
+    <!-- ========== Start blog Section ========== -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <div class="section-title text-center">
+                <img src="/images/title.png" alt="">
+                <h2 class="mt-3">Read Our Blog</h2>
+                <p>NEW STORIES</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="blog-card card shadow">
+                        <img class="img-fluid" src="/images/blog-1.jpg" alt="">
+                        <p class="card-text p-2 mb-0">Oct 12, 2022</p>
+                        <h5 class="card-title ps-2">Some Awesome Blog Title Here
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="blog-card card shadow">
+                        <img class="img-fluid" src="/images/blog-2.jpg" alt="">
+                        <p class="card-text p-2 mb-0">Oct 12, 2022</p>
+                        <h5 class="card-title ps-2">Some Awesome Blog Title Here
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4 mb-4">
+                    <div class="blog-card card shadow">
+                        <img class="img-fluid" src="/images/blog-3.jpg" alt="">
+                        <p class="card-text p-2 mb-0">Oct 12, 2022</p>
+                        <h5 class="card-title ps-2">Some Awesome Blog Title Here
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-warning text-danger d-block mx-auto my-3">More Stories</button>
+        </div>
+    </section>
+    <!-- ========== End blog Section ========== -->
+
+    <!-- ========== Start newsletter Section ========== -->
+    <div class="newsletter d-flex align-items-center" id="newsletter">
+        <div class="container">
+            <div class="row g-0 gap-0 align-items-center">
+                <div class="col-12 col-md-3 align-items-center">
+                    <p class="text-center text-md-start text-danger m-0 fw-bolder fs-5 lh-1">Subscribe to Our Newsletter
+                        ✿</p>
+                </div>
+                <div class="col-12 col-md-9">
+                    <form action="" class="d-flex justify-content-between align-items-center">
+                        <div class="form-floating input-group mx-3">
+                            <i
+                                class="fas fa-envelope input-group-text bg-danger text-warning fw-bolder border-0 me-1"></i>
+                            <input type="email" name="" id="email"
+                                class="form-control border-0 border-bottom rounded-0 text-danger fw-bolder"
+                                placeholder="Email">
+                            <label for="email" class="text-danger ms-2 ps-5">Enter Your Email</label>
+                        </div>
+                        <button class="btn btn-danger text-warning">Subscribe!</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========== End newsletter Section ========== -->
+
+    <!-- ========== Start footer Section ========== -->
+    <section class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 text-center text-md-start my-3">
+                    <img src="/images/logo.png" alt="">
+                    <p class="text-white-50 lh-1 mt-4">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+                        lacinia eget consectetur sed, convallis at tellus.</p>
+                    <div class="text-white-50 mt-5">
+                        <p>Created By <span class="text-warning">ZezO</span>
+                            <br>
+                            © 2022 - <span class="text-warning">ZEZO Inc</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-2 text-center text-md-start my-3">
+                    <ul class="list-unstyled">
+                        <li class="text-white fs-5 fw-bolder mb-2">Links</li>
+                        <li class="li"><a class="text-decoration-none" href="#main" class="">Home</a></li>
+                        <li class="li"><a class="text-decoration-none" href="#services" class="a">Services</a></li>
+                        <li class="li"><a class="text-decoration-none" href="#portfolio" class="a">Portfolio</a></li>
+                        <li class="li"><a class="text-decoration-none" href="#about" class="a">Support</a></li>
+                        <li class="li"><a class="text-decoration-none" href="" class="a">Terms & Condition</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-2 text-center text-md-start my-3">
+                    <ul class="list-unstyled">
+                        <li class="text-white fs-5 fw-bolder mb-2">Logs</li>
+                        <li class="li"><a href="" class="text-decoration-none">Sign In</a></li>
+                        <li class="li"><a href="" class="text-decoration-none">Register</a></li>
+                        <li class="li"><a href="" class="text-decoration-none">Blog</a></li>
+                        <li class="li"><a href="" class="text-decoration-none">Facebook</a></li>
+                        <li class="li"><a href="" class="text-decoration-none">Twitter</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 text-center text-md-start my-3">
+                    <a class="text-decoration-none text-warning fs-5 fw-bolder mb-2" href="#newsletter">Contact Us</a>
+                    <p class="text-white-50 my-3">Get in touch with us via mail phone.We are waiting for your call or
+                        message</p>
+                    <button class="btn btn-warning w-100 text-danger fw-bold my-2">contact-us@info.org</button>
+                    <div class="social d-flex justify-content-evenly">
+                        <a href=""><i class="fab fa-facebook-messenger"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== End footer Section ========== -->
+</body>
+
+</html>
