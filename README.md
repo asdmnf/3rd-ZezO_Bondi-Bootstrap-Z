@@ -5,8 +5,8 @@ This project was deployed at [3rd-ZezO_Bondi-Bootstrap-Z](https://asdmnf.github.
 ### `Note`
 
 may be this project is not completed as i wish.\
-but i prefer to keep it like that to remember my begins.\
+but i prefer to keep it like that to remember my begins.
 
 ### `Property`
 El-Zero Template.\
-but not identical for his code as far as i apply idea before watching his videos.\
+but not identical for his code as far as i apply idea before watching his videos.
