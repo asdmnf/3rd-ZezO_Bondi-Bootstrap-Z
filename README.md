@@ -9,4 +9,4 @@ but i prefer to keep it like that to remember my begins.
 
 ### `Property`
 El-Zero Template.\
-but not identical for his code as far as i apply idea before watching his videos.
+but not identical to his code as far as i apply idea before watching his videos.
