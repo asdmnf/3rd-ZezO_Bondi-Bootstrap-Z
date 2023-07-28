@@ -7,5 +7,5 @@ This project was deployed at [3rd-ZezO_Bondi-Bootstrap-Z](https://asdmnf.github.
 may be this project is not completed as i wish.\
 but i prefer to keep it like that to remember my begins.\
 
-### `Note`
+### `Property`
 El-Zero Template.\
