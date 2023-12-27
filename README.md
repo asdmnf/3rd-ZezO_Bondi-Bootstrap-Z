@@ -2,6 +2,8 @@
 
 This project was deployed at [3rd-ZezO_Bondi-Bootstrap-Z](https://asdmnf.github.io/3rd-ZezO_Bondi-Bootstrap-Z).
 
+**[Video Preview](https://youtu.be/Jn62jOCK1JM)**.
+
 ### `Note`
 
 may be this project is not completed as i wish.\
